@@ -26,7 +26,7 @@ const NOMBRES_COLORES = {
 const listaProductos = [
     { 
         id: 1, 
-        nombre: "Tornillo con capuchón", 
+        nombre: "Tornillo con capuchón fibra de vidrio", 
         descripcion: "Fijación segura con acabado protector resistente.", 
         categoria: ["Tornillos"], 
         img: "img/TornilloConCapuchon.webp",
@@ -51,7 +51,7 @@ const listaProductos = [
     { 
         id: 4, 
         nombre: "Capuchones con arandela metálica", 
-        descripcion: "Protección práctica para terminales y tornillos.", 
+        descripcion: "Para tornillo autoperforante.", 
         categoria: ["Tornillos"], 
         img: "img/capuchones.webp",
         colores: ["#FF0000", "#FFFF00", "#008000", "#0000FF"] 
@@ -75,14 +75,14 @@ const listaProductos = [
     { 
         id: 7, 
         nombre: "Registro para contador de agua", 
-        descripcion: "Solución resistente para proteger registros.", 
+        descripcion: "En la medida que lo necesites.", 
         categoria: ["Hogar","Variedad"], 
         img: "img/RegistroContadorAgua.webp", 
         colores: ["#FF0000", "#0000FF","#FFFFFF"] 
     },
     { 
         id: 8, 
-        nombre: "Resaltes de aluminio", 
+        nombre: "Resaltes o estoperoles de aluminio", 
         descripcion: "Seguridad vial con estructura reforzada.", 
         categoria: ["Variedad"], 
         img: "img/ResaltesAluminio.webp", 
@@ -90,7 +90,7 @@ const listaProductos = [
     },
     { 
         id: 9, 
-        nombre: "Capelotes de cresta baja", 
+        nombre: "Capelotes de cresta alta", 
         descripcion: "Ajuste perfecto para cubiertas de teja.", 
         categoria: ["Variedad"], 
         img: "img/CapelotesCrestaBaja.webp", 
@@ -107,7 +107,7 @@ const listaProductos = [
     { 
         id: 11, 
         nombre: "Tornillo con capuchón fibra de vidrio más empaque de sellado", 
-        descripcion: "Incluye arandela de neopreno para mejor sellado.", 
+        descripcion: "para mejor sellado.", 
         categoria: ["Tornillos"], 
         img: "img/CapuchonBlando.png", 
         colores: ["#0000FF","#FF0000","#008000","#000000","#FFA500"]    
@@ -170,8 +170,8 @@ const listaProductos = [
     },
     { 
         id: 19,     
-        nombre: "Capelotes cresta alta", 
-        descripcion: "Diseño ideal para tejas de cresta alta.", 
+        nombre: "Capelotes cresta baja", 
+        descripcion: "Diseño ideal para tejas de cresta baja.", 
         categoria: ["Variedad"], 
         img: "img/CapeloteCrestaAlta.webp", 
         colores: ["#0000FF","#FF0000","#008000","#000000","#FFA500"] 
